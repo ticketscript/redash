@@ -64,7 +64,7 @@
               var columnType = columns[i].type;
 
               if (columnType === 'integer') {
-                columnDefinition.formatFunction = 'number';
+                columnDefinition.formatFunction = 'lowercase';
                 columnDefinition.formatParameter = 0;
               } else if (columnType === 'float') {
                 columnDefinition.formatFunction = 'number';
